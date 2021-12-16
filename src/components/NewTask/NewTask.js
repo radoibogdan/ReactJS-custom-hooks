@@ -26,7 +26,7 @@ const NewTask = (props) => {
   };
 
   return (
-    <Section>
+    <Section> 
       <TaskForm onEnterTask={enterTaskHandler} loading={isLoading} />
       {error && <p>{error}</p>}
     </Section>
